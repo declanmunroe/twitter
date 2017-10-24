@@ -5,6 +5,7 @@ CONSUMER_KEY = 'l4hgbhH3UtFzwUfW6ZIw5OM4F'
 CONSUMER_SECRET = 'ZFexuXt0JL5e9Mkx7N21ihLBDh33kcTODEKkuYc0dSfoPicYl0'
 OAUTH_TOKEN = '544426332-HSwONottMnM69TMFgx9jWNNCgUP7lk1Th6rRneL4'
 OAUTH_TOKEN_SECRET = '2wVUGiPcgxhOYzwpdktudNwwgd0Xz2ICWqyq7DUzNtH66'
+MONGODB_URI = "mongodb://root:Pa55word@ds011422.mlab.com:11422/tweets"
 
 def get_auth():
     auth = OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
